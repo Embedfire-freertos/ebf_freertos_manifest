@@ -34,12 +34,12 @@
   <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_rt1052" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/书籍配套例程/第二部分/RT1052开发板"/>
 
       <!--系统+外设代码，配套各个开发板-->
-  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_mini" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/系统_外设代码_F103_MINI开发板"/>
-  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_zhinanzhe" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/系统_外设代码_F103_指南者开发板"/>
-  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_badao" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/系统_外设代码_F103_霸道开发板"/>
-  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f407_batianhu" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/系统_外设代码_F407_霸天虎开发板"/>
-  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f429_tiaozhanzhe" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/系统_外设代码_F429_挑战者开发板"/>
-  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f767_tiaozhanzhe" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/系统_外设代码_F767_挑战者开发板"/>
+  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_mini" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/系统_外设代码/F103_MINI开发板"/>
+  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_zhinanzhe" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/系统_外设代码/F103_指南者开发板"/>
+  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_badao" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/系统_外设代码/F103_霸道开发板"/>
+  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f407_batianhu" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/系统_外设代码/F407_霸天虎开发板"/>
+  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f429_tiaozhanzhe" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/系统_外设代码/F429_挑战者开发板"/>
+  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f767_tiaozhanzhe" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/系统_外设代码/F767_挑战者开发板"/>
 
 
 
