@@ -3,21 +3,25 @@
 
   <default sync-j="2"/>
 
-  <remote fetch="git://github.com/Embedfire" name="githubEmbedfire"/>
+
+  <!--下载源定义-->
+  <!--github-->
   <remote fetch="git://github.com/Embedfire-freertos" name="githubEmbedfire-freertos"/>
+
   <!--gitee不支持git协议，ssh协议需要添加密钥，https协议不需要密钥-->
     <!--ssh-->
-  <remote fetch="ssh://gitee.com/wildfireteam" name="giteeWildfireteam"/>
   <remote fetch="ssh://gitee.com/Embedfire-freertos" name="giteeEmbedfire-freertos"/>
     <!--https-->
   <remote fetch="https://gitee.com/Embedfire-freertos" name="https-giteeEmbedfire-freertos"/>
-  <remote fetch="https://gitee.com/Embedfire-freertos" name="https-giteeEmbedfire-freertos"/>
+
+    <!--我们在github和gitee都包含同名的仓库-->
+    <!--开发活跃的资料，在gitee可能不会时刻保持最新，有时可能会有点滞后-->
+    <!--以下project中的remote参数替换为上面定义的remote名，即可切换下载源-->
 
   <!--开源图书-->
     <!--操作系统-->
 
-      <!--以下仓库会到外部github-->
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_manifest" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/manifest_publish"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_manifest" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/资料清单_manifest"/>
   <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_tutorial" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/rst格式文档"/>
 
   <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_tutorial_pdf" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》"/>
@@ -39,7 +43,7 @@
   <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h750_v_pro" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/H750_Pro_V版本芯片"/>
   <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_rt1052" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/RT1052"/>
 
-      <!--系统+外设代码，配套各个-->
+      <!--系统+外设代码，配套各个开发板-->
   <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_mini" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/系统_外设代码/F103_MINI"/>
   <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_zhinanzhe" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/系统_外设代码/F103_指南者"/>
   <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_badao" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/系统_外设代码/F103_霸道"/>
