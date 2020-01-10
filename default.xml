@@ -12,7 +12,7 @@
 
       <!--以下仓库会到外部github-->
   <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_manifest" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/manifest_publish"/>
-  <project remote="gitlabEmbedfire" revision="master" name="ebf_freertos_tutorial" path="rst格式文档"/>
+  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_tutorial" path="rst格式文档"/>
 
   <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_tutorial_pdf" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列"/>
   <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_data" path="野火开源图书合集（含程序源码）/[野火]《FreeRTOS内核实现与应用开发实战指南》系列/参考资料"/>
