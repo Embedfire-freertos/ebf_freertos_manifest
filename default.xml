@@ -21,35 +21,35 @@
   <!--开源图书-->
     <!--操作系统-->
 
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_manifest" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/资料清单_manifest"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_tutorial" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/rst格式文档"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_manifest" path="tutorial/embedfire_freertos_tutorial/manifest"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_tutorial" path="tutorial/embedfire_freertos_tutorial/rst_format_tutorial"/>
 
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_tutorial_pdf" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_data" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/参考资料"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_tutorial_pdf" path="tutorial/embedfire_freertos_tutorial"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_data" path="tutorial/embedfire_freertos_tutorial/reference"/>
       <!--第一部分代码，配套各个开发板-->
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_tutorial_code_1" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第一部分"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_tutorial_code_1" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part1"/>
 
       <!--第二部分代码，配套各个开发板-->
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f103_mini" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/F103_MINI"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f103_zhinanzhe" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/F103_指南者"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f103_badao" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/F103_霸道"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f407_batianhu" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/F407_霸天虎"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f429_tiaozhanzhe" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/F429_挑战者"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32_f767_tiaozhanzhe" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/F767_挑战者"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h743_pro" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/H743_Pro"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h743_v_pro" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/H743_Pro_V版本芯片"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h743_tiaozhanzhe" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/H743_挑战者"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h750_pro" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/H750_Pro"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h750_v_pro" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/H750_Pro_V版本芯片"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_rt1052" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/RT1052"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f103_mini" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part2/F103_MINI"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f103_zhinanzhe" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part2/F103_zhinanzhe"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f103_badao" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part2/F103_badao"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f407_batianhu" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part2/F407_batianhu"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f429_tiaozhanzhe" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part2/F429_tiaozhanzhe"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32_f767_tiaozhanzhe" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part2/F767_tiaozhanzhe"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h743_pro" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part2/H743_Pro"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h743_v_pro" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part2/H743_Pro_V_chip"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h743_tiaozhanzhe" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part2/H743_tiaozhanzhe"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h750_pro" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part2/H750_Pro"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h750_v_pro" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part2/H750_Pro_V_chip"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_rt1052" path="tutorial/embedfire_freertos_tutorial/tutorial_code/part2/RT1052"/>
 
       <!--系统+外设代码，配套各个开发板-->
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_mini" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/系统_外设代码/F103_MINI"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_zhinanzhe" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/系统_外设代码/F103_指南者"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_badao" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/系统_外设代码/F103_霸道"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f407_batianhu" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/系统_外设代码/F407_霸天虎"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f429_tiaozhanzhe" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/系统_外设代码/F429_挑战者"/>
-  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f767_tiaozhanzhe" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/系统_外设代码/F767_挑战者"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_mini" path="tutorial/embedfire_freertos_tutorial/os_peripheral/F103_MINI"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_zhinanzhe" path="tutorial/embedfire_freertos_tutorial/os_peripheral/F103_zhinanzhe"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f103_badao" path="tutorial/embedfire_freertos_tutorial/os_peripheral/F103_badao"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f407_batianhu" path="tutorial/embedfire_freertos_tutorial/os_peripheral/F407_batianhu"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f429_tiaozhanzhe" path="tutorial/embedfire_freertos_tutorial/os_peripheral/F429_tiaozhanzhe"/>
+  <project remote="https-giteeEmbedfire-freertos" revision="master" name="ebf_freertos_peripheral_code_stm32f767_tiaozhanzhe" path="tutorial/embedfire_freertos_tutorial/os_peripheral/F767_tiaozhanzhe"/>
 
 
 
