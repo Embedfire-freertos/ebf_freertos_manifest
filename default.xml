@@ -35,7 +35,7 @@
   <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f103_badao" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/F103_霸道"/>
   <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f407_batianhu" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/F407_霸天虎"/>
   <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f429_tiaozhanzhe" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/F429_挑战者"/>
-  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32_f767_tiaozhanzhe" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/F767_挑战者"/>
+  <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32f767_tiaozhanzhe" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/F767_挑战者"/>
   <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h743_pro" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/H743_Pro"/>
   <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h743_v_pro" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/H743_Pro_V版本芯片"/>
   <project remote="githubEmbedfire-freertos" revision="master" name="ebf_freertos_base_code_stm32h743_tiaozhanzhe" path="野火开源图书/[野火]《FreeRTOS内核实现与应用开发实战》/配套代码/第二部分/H743_挑战者"/>
